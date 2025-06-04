@@ -1,0 +1,42 @@
+
+     .parent p{
+       font-family: cursive;
+       letter-spacing :5px;
+       text-transform: capitalize;
+       text-decoration: line-through;
+
+        }
+        p:hover{
+            color:rgb(194, 10, 47);
+            background-color: rgb(12, 88, 230);
+        }
+        .border{
+            border: 2px solid rgb(4, 245, 225);
+            padding-left: 10px;
+            print-color-adjust: 10px;
+        }
+        .marging{
+            border: 3px solid rgb(81, 5, 151);
+            margin-top:5px;
+            padding:10px 50px 5px;
+            
+        }
+        .relative{
+            position: absolute;
+            top: 100px;
+            left:50px;
+        }
+        .page{
+        height:100vh;
+        }
+        .fixed{
+            position: fixed;
+            left:150px;
+        }
+        .sticky
+        {
+            position:sticky;
+            top:10px;
+            left:120px;
+        }
+    
